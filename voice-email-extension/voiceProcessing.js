@@ -38,6 +38,7 @@ const processCommand = (command) => {
     } else if (command.includes("save draft")) {
         saveDraft();
     } else if (command.includes("mark my last email as read")) {
+        markEmailAsRead();
     } else {
         alert("Command not recognized. Please try again.");
     }
